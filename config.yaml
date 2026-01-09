@@ -1,0 +1,17 @@
+{
+  "hid": {
+    "absolute_min_x": 0,
+    "absolute_min_y": 0,
+    "absolute_max_x": 32767,
+    "absolute_max_y": 32767
+  },
+  "screens": [
+    {
+      "name": "primary",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}
