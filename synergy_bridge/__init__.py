@@ -14,6 +14,15 @@ from .synergy_client import (
     SynergyClient,
     SynergyProtocolParser,
 )
+from .translator import (
+    AbsoluteCoordinateRange,
+    HidPointerEvent,
+    ScreenLayout,
+    ScreenLayoutConfig,
+    SynergyTranslator,
+    load_layout_config,
+    parse_layout_config,
+)
 
 __all__ = [
     "HID_REPORT_DESCRIPTORS",
@@ -26,4 +35,11 @@ __all__ = [
     "ScreenTransitionEvent",
     "SynergyClient",
     "SynergyProtocolParser",
+    "AbsoluteCoordinateRange",
+    "HidPointerEvent",
+    "ScreenLayout",
+    "ScreenLayoutConfig",
+    "SynergyTranslator",
+    "load_layout_config",
+    "parse_layout_config",
 ]
