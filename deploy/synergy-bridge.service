@@ -1,0 +1,12 @@
+[Unit]
+Description=Synergy Bridge HID Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -m synergy_bridge.cli --server 127.0.0.1:24800 --config /etc/synergy-bridge/config.yaml
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
